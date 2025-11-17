@@ -1,0 +1,27 @@
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    gap: 0rem;
+}
+
+.articulo p {
+    margin: 0;
+}
+
+.articulo img {
+    height: 10rem;
+    object-fit: contain;
+}
+
+.articulo .name {
+    font-weight: bold;
+}
